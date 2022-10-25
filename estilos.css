@@ -44,17 +44,20 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid rgba(157, 152, 152, 0.282);
+  border-bottom: 1px solid rgba(140, 133, 133, 0.282);
 }
 .card-body-img {
+  width: 200px;
+  height: 200px;
   border: 5px solid white;
   border-radius: 50%;
-  margin-top: -53px;
+  margin-top: -105px;
   background-color: white;
 }
 .card-body .card-body-title {
   font-size: 20px;
   margin-top: 1rem;
+  text-transform: capitalize;
 }
 .card-body .card-body-title span {
   color: var(--dark-gray);
